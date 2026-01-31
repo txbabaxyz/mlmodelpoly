@@ -1,0 +1,185 @@
+# =============================================================================
+# Python
+# =============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# =============================================================================
+# Virtual Environments
+# =============================================================================
+
+venv/
+.venv/
+ENV/
+env/
+.env.local
+.env.*.local
+
+# =============================================================================
+# Environment & Secrets
+# =============================================================================
+
+# Environment files with secrets
+.env
+.env.production
+.env.staging
+
+# API keys and credentials
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# =============================================================================
+# IDE / Editor
+# =============================================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# =============================================================================
+# OS Generated
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =============================================================================
+# Project Specific
+# =============================================================================
+
+# Data directories
+data/
+!data/.gitkeep
+
+# Log files
+logs/
+*.log
+!logs/.gitkeep
+
+# Recordings
+recordings/
+
+# Backtest results
+results/
+*.csv
+*.jsonl
+!requirements.txt
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.onnx
+
+# Charts and plots
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+!docs/*.png
+!docs/*.svg
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# =============================================================================
+# Build artifacts
+# =============================================================================
+
+*.tar.gz
+*.zip
+*.rar

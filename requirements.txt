@@ -1,0 +1,67 @@
+# =============================================================================
+# Binance Collector Dependencies
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# Web Framework & Server
+# -----------------------------------------------------------------------------
+fastapi>=0.115.0              # Modern async web framework
+uvicorn>=0.30.0               # ASGI server for FastAPI
+
+# -----------------------------------------------------------------------------
+# Data Processing & Analysis
+# -----------------------------------------------------------------------------
+pandas>=2.2.0                 # Data manipulation and analysis
+numpy>=2.0.0                  # Numerical computing
+scipy>=1.14.0                 # Scientific computing (statistics, signal processing)
+
+# -----------------------------------------------------------------------------
+# Visualization
+# -----------------------------------------------------------------------------
+matplotlib>=3.9.0             # Plotting and charts
+pillow>=10.0.0                # Image processing
+
+# -----------------------------------------------------------------------------
+# HTTP & WebSocket Clients
+# -----------------------------------------------------------------------------
+httpx>=0.27.0                 # Async HTTP client
+aiohttp>=3.10.0               # Async HTTP client/server
+websockets>=13.0              # WebSocket client library
+
+# -----------------------------------------------------------------------------
+# Configuration & Validation
+# -----------------------------------------------------------------------------
+pydantic>=2.9.0               # Data validation using Python type hints
+pydantic-settings>=2.5.0      # Settings management with environment variables
+python-dotenv>=1.0.0          # Load environment variables from .env file
+
+# -----------------------------------------------------------------------------
+# Serialization & Data Formats
+# -----------------------------------------------------------------------------
+orjson>=3.10.0                # Fast JSON serialization (Rust-based)
+python-dateutil>=2.9.0        # Powerful date/time utilities
+
+# -----------------------------------------------------------------------------
+# Terminal UI & Logging
+# -----------------------------------------------------------------------------
+rich>=13.9.0                  # Rich text and beautiful formatting in terminal
+
+# -----------------------------------------------------------------------------
+# Monitoring & Metrics
+# -----------------------------------------------------------------------------
+prometheus_client>=0.21.0     # Prometheus metrics client
+
+# -----------------------------------------------------------------------------
+# CLI & Utilities
+# -----------------------------------------------------------------------------
+click>=8.1.0                  # Command line interface creation
+
+# -----------------------------------------------------------------------------
+# Development Dependencies (optional)
+# -----------------------------------------------------------------------------
+# Uncomment for development:
+# pytest>=8.0.0               # Testing framework
+# pytest-asyncio>=0.24.0      # Async test support
+# black>=24.0.0               # Code formatter
+# mypy>=1.11.0                # Static type checker
+# ruff>=0.6.0                 # Fast linter
