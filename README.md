@@ -46,8 +46,9 @@ Real-time trading data collector for Binance Futures/Spot with Polymarket predic
 ## Installation
 
 ```bash
-# Clone or copy the project
-cd binance_collector_clean
+# Clone the project
+git clone https://github.com/txbabaxyz/mlmodelpoly.git
+cd mlmodelpoly
 
 # Create virtual environment
 python3 -m venv venv
@@ -136,7 +137,7 @@ All settings are configured via environment variables or `.env` file.
 ### Start the Collector
 
 ```bash
-cd binance_collector_clean
+cd mlmodelpoly
 source venv/bin/activate
 
 # Run with default settings
@@ -182,7 +183,7 @@ curl http://localhost:8000/latest/edge | jq .
 ## Project Structure
 
 ```
-binance_collector_clean/
+mlmodelpoly/
 ├── src/
 │   ├── collector/              # Main collector package
 │   │   ├── __init__.py
@@ -279,7 +280,7 @@ binance_collector_clean/
 
 ```bash
 source venv/bin/activate
-pytest tests/
+# Tests coming soon
 ```
 
 ### Code Style
